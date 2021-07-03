@@ -1,0 +1,33 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+
+.orange-color{
+    color: orange;
+}
+section{
+    display: flex;
+}
+.mamun{
+    width: 50%;
+    padding-left: 5%;
+
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 15px;
+    color: white;
+    border-radius: 15px;
+}
+.mamun img{
+    width: 80%;
+}
+.top-ban{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+}

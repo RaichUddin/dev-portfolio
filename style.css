@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .mamun{
     width: 50%;
@@ -30,4 +31,9 @@ section{
 .top-ban{
     background-image: url(top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-bg{
+    background-image: url(dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }

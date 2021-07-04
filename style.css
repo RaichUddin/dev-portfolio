@@ -5,17 +5,21 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
 .mamun{
     width: 50%;
     padding-left: 5%;
+    text-align: justify;
 
 }
 .link-button{
@@ -36,4 +40,34 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.ex-bottom{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+.item{width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 40px gray;
+    text-align: justify;
+    
+}
+#nodi{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#rasel{
+    border-left: 7px solid;
+    border-image: linear-gradient(crimson, purple);
+    border-image-slice: 1;
+
+}
+footer p{
+    text-align: center;
 }
